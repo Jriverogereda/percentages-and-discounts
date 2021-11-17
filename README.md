@@ -2,6 +2,7 @@
 Implementing  discounts with coupons for a  Bakery store. using html, css and javascript.
 
 COPONS:
+
 -labakery15 --> 15% discount
 
 -labakery20 --> 20% discount
