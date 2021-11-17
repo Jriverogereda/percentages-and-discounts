@@ -3,7 +3,9 @@ Implementing  discounts with coupons for a  Bakery store. using html, css and ja
 
 COPONS:
 -labakery15 --> 15% discount
+
 -labakery20 --> 20% discount
+
 -labakery30 --> 30% discount
 
 ![](./image1.png)
