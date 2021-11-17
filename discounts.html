@@ -1,0 +1,56 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the best bakery</title>
+    <link rel="stylesheet" href= "discounts.css">
+    
+</head>
+<body>
+    <header>
+        <div class="card center-text">
+            <img src="/percentages-and-discounts/bakery.jpg" width="380" height="170" >
+            <h2>CALCULATE DISCOUNT</h2>
+            <p class= "cupon-description"> Use your cupon and calculate the price to pay for your discounted products</p>
+            <img src="car-discount.jpg" width="120" height="120" />
+            <form>
+            <div class="PriceIn">   
+                <label for="selectProduct">  SELECT PRODUCT</label>
+                <div class="select">
+                    <select id="selectProduct" type="text">
+                        <option>Croissant box $1500</option>
+                        <option>Garlic bread $200</option>
+                        <option>Doughnuts box $1000</option>
+                        <option>Ciabatta bread $300</option>
+                    </select>
+                </div>  
+            </div>
+            <div class="Coupon"> 
+                <label for= "inputCoupons"> COUPON CODE </label>
+                <div class="code">
+                    <input id="inputCoupons" type="text"/>
+                </div>
+            </div>
+
+                <p id="ResultPrice"></p>
+           
+            </form>
+                <div class="aply"> 
+                    <button class="Payment" onclick="onClickButtonPriceDiscount()">  Proceed to calculate</button>
+                    <a  class="Cancel" href=""> Cancel Order</a>
+                </div>
+        
+        </div>
+    </header>
+    <footer>
+    <div class="attribution">
+    </a>Coded by:  <a href="#">Jonnathan Rivero Gereda</a>.
+    </div>
+    </footer>
+
+    </section> 
+    <script src="./discounts.js"></script>
+</body>
+</html>
